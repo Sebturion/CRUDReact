@@ -120,7 +120,7 @@ class App extends React.Component {
                   <td>{element.LastName}</td>
                   <td>
                     {/* Button to show the edit modal */}
-                    <Button color='primary' onClick={() => this.showModalEdit(element)}>Edit</Button>
+                    <Button color='primary' onClick={() => this.showModalEdit(element)}>Edit</Button>{"   "}
                     {/* Button to delete a record */}
                     <Button color='danger' onClick={() => this.delete(element)}>Delete</Button>
                   </td>
